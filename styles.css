@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root{
+    --textobarra: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+
+header{
+    height: 5rem;
+    width: 100%;
+    background-color: #c03444;
+    font-weight: 300;
+    text-align: right;
+    font-size: 1.2rem;
+    min-width: 390px;
+    min-height: 5rem;
+    margin-top: 0;
+    position: fixed;
+    box-shadow: 2px 2px 5px #1e1e20;
+}
+
+
+#navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navbar li{
+    float: right;
+}
+
+#navbar li a {
+    display: block;
+    text-align: center;
+    padding: 1.59rem 16px;
+    text-decoration: none;
+    height: auto;
+ }
+
+ #navbar li a:hover{
+    background-color: #45567d;
+ }
+
+
+a:link{
+    text-decoration: none;
+    color: var(--textobarra);
+}
+
+a:hover{
+    text-decoration: none;
+    color: var(--textobarra); 
+}
+
+a:visited{
+    text-decoration: none;
+    color: var(--textobarra);
+}
+
+/*SECCION SOBRE MI*/
+
+
+#about{
+    height: 100vh;
+    width: auto;
+    color: white;
+    background-color: #1e1e20;
+}
+
+#about h1{
+    padding-top: 15rem;
+    font-size: 5rem;
+}
+
+#about p{
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #c03444;
+}
+
+/*SECCION TRABAJOS*/
+
+#work{
+    width: 100%;
+    height:max-content;
+    background-color: #45567d;
+}
+
+#work h1{
+    width: 400px;
+    padding-top: 7rem;
+    color: white;
+    font-size: 1.5rem;
+    border-bottom: 2px solid white;
+    margin-bottom: 2rem;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 6rem;
+    color: #FFFFFF;
+    background-color: #c03444;
+}
+
+.texto{
+    background-color: #c03444;
+    font-weight: 600;
+}
+
+.uno{
+    background-image: url(img/pagina_encuesta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dos{
+    background-image: url(img/pagina_tributo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tres{
+    background-image: url(img/pagina_documentacion.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cuatro{
+    background-image: url(img/pagina_producto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
