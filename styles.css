@@ -13,6 +13,8 @@
 
 html{
     scroll-behavior: smooth;
+    width: 100%;
+    background-color: red;
 }
 
 /*BARRA DE NAVEGACIÓN*/
@@ -76,7 +78,7 @@ a:visited{
 
 #about{
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     color: white;
     background-color: #1e1e20;
 }
@@ -95,13 +97,12 @@ a:visited{
 /*SECCION TRABAJOS*/
 
 #work{
-    width: 100%;
-    height:max-content;
+    height: 100vh;
+    width: 100vw;
     background-color: #45567d;
 }
 
-#work h1{
-    width: 400px;
+#work h1{ 
     padding-top: 7rem;
     color: white;
     font-size: 1.5rem;
@@ -113,7 +114,6 @@ a:visited{
     width: 100%;
     display: flex;
     flex-direction: row;
-    margin: 1rem;
     flex-wrap: wrap;
     justify-content:space-evenly;
     align-items: center;
